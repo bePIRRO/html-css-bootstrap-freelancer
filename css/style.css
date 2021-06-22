@@ -1,14 +1,15 @@
-
+/* header */
 .header-bar {
-    border: 1px solid red;
+    border: 3px solid red;
     min-height: 80px;
 }
 
 .header-title {
-    border: 1px dashed blue;
+    border: 2px dashed blue;
     min-height: 50px;
 }
 
+/* jumbrotron + about */
 .jumbotron {
     border: 3px solid black;
     min-height: 200px;
@@ -20,6 +21,7 @@
 }
 
 
+/* portfolio */
 .portfolio {
     border: 3px solid purple;
 }
@@ -29,12 +31,39 @@
     min-width: 150px;
 }
 
+
+/* contacts */
 .contacts {
     border: 3px solid blue;
     min-height: 200px;
 }
 
 .contacts .col {
-    border: 2px dashed greenyellow;
+    border: 2px dashed goldenrod;
     min-height: 50px;
+}
+
+
+/* footer */
+
+/* info */
+.info{
+    border: 3px solid deeppink;
+    min-height: 150px;
+}
+
+.info .col-12 {
+    border: 2px dashed black;
+    min-height: 150px;
+}
+
+/* copyright */
+.copyright {
+    border: 3px solid black ;
+    min-height: 80px;
+}
+
+.copyright .col {
+    border: 2px dashed blue;
+    min-height: 80px;
 }
