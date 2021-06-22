@@ -19,4 +19,8 @@
     min-height: 50px;
 }
 
-.img-test
+.img-test {
+    border: 3px dashed cadetblue;
+    min-height: 100px;
+    min-width: 150px;
+}
