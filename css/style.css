@@ -1,0 +1,10 @@
+
+.header-bar {
+    border: 1px solid red;
+    min-height: 80px;
+}
+
+.header-title {
+    border: 1px dashed blue;
+    min-height: 50px;
+}
