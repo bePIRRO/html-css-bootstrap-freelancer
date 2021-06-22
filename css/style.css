@@ -19,6 +19,10 @@
     min-height: 50px;
 }
 
+
+.portfolio {
+    border: 3px solid purple;
+}
 .img-test {
     border: 3px dashed cadetblue;
     min-height: 100px;
