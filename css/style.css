@@ -80,6 +80,15 @@ section {
     padding: 10px;
 }
 
+#info a {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+#info a:hover {
+    text-decoration: underline;
+}
+
 /* copyright */
 .copyright {
     border: 3px solid black ;
