@@ -7,6 +7,11 @@ section {
     margin-bottom: 90px;
 }
 
+.btn {
+    border: 1px solid #fff;
+}
+
+
 /* bg colors */
 .bg-dark-blue {
     background-color: #2c3e50;
@@ -55,15 +60,6 @@ section {
 /* about */
 
 /* contacts */
-#contacts {
-    border: 3px solid blue;
-    min-height: 200px;
-}
-
-#contacts .col {
-    border: 2px dashed goldenrod;
-    min-height: 50px;
-}
 
 
 /* footer */
