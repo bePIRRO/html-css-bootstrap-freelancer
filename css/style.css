@@ -1,13 +1,8 @@
 /* header */
-.header-bar {
-    border: 3px solid red;
-    min-height: 80px;
+.bg-dark-blue {
+    background-color: #2c3e50;
 }
 
-.header-title {
-    border: 2px dashed blue;
-    min-height: 50px;
-}
 
 /* jumbrotron + about */
 .jumbotron {
@@ -29,6 +24,18 @@
     border: 3px dashed cadetblue;
     min-height: 100px;
     min-width: 150px;
+}
+
+
+/* about */
+#about {
+    border: 3px solid black;
+    min-height: 200px;
+}
+
+#about .col-12 {
+    border: 2px dashed orange;
+    min-height: 50px;
 }
 
 
