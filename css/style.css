@@ -22,7 +22,7 @@
 
 
 /* portfolio */
-.portfolio {
+#portfolio {
     border: 3px solid purple;
 }
 .img-test {
@@ -33,12 +33,12 @@
 
 
 /* contacts */
-.contacts {
+#contacts {
     border: 3px solid blue;
     min-height: 200px;
 }
 
-.contacts .col {
+#contacts .col {
     border: 2px dashed goldenrod;
     min-height: 50px;
 }
