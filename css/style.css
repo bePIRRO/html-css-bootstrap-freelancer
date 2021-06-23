@@ -88,14 +88,3 @@ section {
 #info a:hover {
     text-decoration: underline;
 }
-
-/* copyright */
-.copyright {
-    border: 3px solid black ;
-    min-height: 80px;
-}
-
-.copyright .col {
-    border: 2px dashed blue;
-    min-height: 80px;
-}
