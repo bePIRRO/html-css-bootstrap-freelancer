@@ -3,23 +3,16 @@
     color: #333;
 }
 
+.white {
+    color: #fff;
+}
+
 section {
     margin-bottom: 90px;
 }
 
 .btn {
     border: 1px solid #fff;
-}
-
-
-/* bg colors */
-.bg-dark-blue {
-    background-color: #2c3e50;
-}
-
-.bg-green {
-    background-color: #1abc9c;
-    color: #fff;
 }
 
 .star-bar{
@@ -31,6 +24,21 @@ section {
     vertical-align: middle;
     margin: 0 20px;
 } 
+
+
+/* bg colors */
+.bg-dark-blue {
+    background-color: #2c3e50;
+}
+
+.bg-green {
+    background-color: #1abc9c;
+}
+
+.bg-blue {
+    background-color: #3a546d;
+}
+
 
 /* jumbrotron*/
 #avatar {
@@ -56,24 +64,17 @@ section {
     border-radius: 20px;
 }
 
-
-/* about */
-
 /* contacts */
-
+#contacts .form-control {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    
+}
 
 /* footer */
 
 /* info */
-.info{
-    border: 3px solid deeppink;
-    min-height: 150px;
-}
 
-.info .col-12 {
-    border: 2px dashed black;
-    min-height: 150px;
-}
 
 /* copyright */
 .copyright {

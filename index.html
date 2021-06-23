@@ -11,6 +11,9 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
         integrity="sha512-xnP2tOaCJnzp2d2IqKFcxuOiVCbuessxM6wuiolT9eeEJCyy0Vhcwa4zQvdrZNVqlqaxXhHqsSV1Ww7T2jSCUQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Layout</title>
 </head>
@@ -19,7 +22,7 @@
 
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue" id="headnav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue white" id="headnav">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Start Bootstrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -42,7 +45,7 @@
     <main>
 
         <!-- jumbotron -->
-        <section class="jumbotron container-fluid text-center bg-green py-5">
+        <section class="jumbotron container-fluid text-center bg-green white py-5">
             <div class="row">
                 <div class="col-12">
                     <img src="./img/avatar.svg" alt="Avatar" id="avatar">
@@ -96,7 +99,7 @@
 
 
         <!-- about -->
-        <section class="container-fluid bg-green py-5" id="about">
+        <section class="container-fluid bg-green white py-5" id="about">
             <div class="container container-sm">
                 <div class="row">
 
@@ -123,7 +126,7 @@
                     </div>
 
                     <div class="col-12 jumbo-items text-center">
-                        <button type="submit" class="btn bg-green">Download</button>
+                        <button type="submit" class="btn bg-green white">Download</button>
                     </div>
                 </div>
 
@@ -135,7 +138,7 @@
         <section class="container container-sm" id="contacts">
             <div class="row">
 
-                <div class="col-12 text-center">
+                <div class="col-12 text-center dark">
                     <h2 class="dark">CONTACT ME</h2>
                     <div class="star-bar star-bar-blue"></div>
                     <i class="bi bi-star-fill"></i>
@@ -145,18 +148,32 @@
                 <div class="col-12 offset-lg-2 col-lg-8">
                     <form>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            <label for="name" class="form-label"></label>
+                            <input type="text" class="form-control" placeholder="Name" id="name" required name="name">
                         </div>
+
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="email" class="form-label"></label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required
+                                name="email">
                         </div>
-                        
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label"></label>
+                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required
+                                name="phone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message"></label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Message" required
+                                name="message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn bg-green white">Submit</button>
                 </div>
+                </form>
+            </div>
             </div>
         </section>
     </main>
@@ -166,11 +183,24 @@
     <footer>
 
         <!-- info -->
-        <div class="container-fluid align-items-center text-center info">
+        <div class="container-fluid align-items-center text-center info bg-blue white">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-4">test</div>
-                <div class="col-12 col-sm-12 col-md-4">test</div>
-                <div class="col-12 col-sm-12 col-md-4">test</div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    <h5>LOCATION</h5>
+                    <address>2215 John Daniel Drive Clark, MO<br>54243</address>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4">
+                    <h5>AROUND THE WEB</h5>
+                    <div class="social">
+                        
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-12 col-md-4">
+
+                </div>
             </div>
         </div>
 
